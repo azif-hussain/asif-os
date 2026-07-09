@@ -1,1 +1,2 @@
 com.getpostman.Postman
+io.dbeaver.DBeaverCommunity
