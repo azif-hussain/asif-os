@@ -1,2 +1,3 @@
 com.getpostman.Postman
 io.dbeaver.DBeaverCommunity
+com.bitwarden.desktop
