@@ -58,3 +58,10 @@ Reason:
 - Keep the host clean
 - Avoid installing Node/npm globally
 - Match the Docker-first workstation philosophy
+
+## Claude Code PATH
+
+Claude Code native installer places the binary in:
+
+```text
+~/.local/bin/claude
