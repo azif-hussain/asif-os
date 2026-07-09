@@ -48,3 +48,13 @@ Benefits:
 - No dependency conflicts
 - Easy onboarding
 - Reproducible development environments
+
+## Claude Code
+
+Claude Code is installed using the native installer, not npm.
+
+Reason:
+
+- Keep the host clean
+- Avoid installing Node/npm globally
+- Match the Docker-first workstation philosophy
