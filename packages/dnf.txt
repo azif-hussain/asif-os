@@ -1,7 +1,21 @@
+# Core
 git
-zsh
+git-lfs
 curl
 wget
+ca-certificates
+unzip
+zip
+
+# Shell and terminal
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+fzf
+eza
+bat
+
+# Editors and utilities
 vim
 nano
 htop
@@ -10,17 +24,10 @@ tree
 ripgrep
 fd-find
 jq
-unzip
-zip
+
+# Build tools
 gcc
 make
-docker-ce
-docker-ce-cli
-docker-buildx-plugin
-docker-compose-plugin
-google-chrome-stable
+
+# GitHub
 gh
-brave-browser
-megasync
-dolphin-megasync
-code

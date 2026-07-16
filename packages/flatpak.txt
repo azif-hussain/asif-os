@@ -1,3 +1,4 @@
-com.getpostman.Postman
-io.dbeaver.DBeaverCommunity
 com.bitwarden.desktop
+com.getpostman.Postman
+com.rustdesk.RustDesk
+io.dbeaver.DBeaverCommunity
