@@ -6,11 +6,11 @@ echo "====================================="
 echo " Installing AsifOS"
 echo "====================================="
 
-./scripts/install-dnf.sh
-./scripts/install-flatpak.sh
-./scripts/install-git.sh
-./scripts/install-docker.sh
-./scripts/install-chrome.sh
+./install/dnf.sh
+./install/flatpak.sh
+./install/git.sh
+./install/docker.sh
+./install/chrome.sh
 
 echo
 echo "AsifOS base installation complete!"
