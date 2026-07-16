@@ -10,7 +10,8 @@ if ! command -v flatpak >/dev/null 2>&1; then
     sudo dnf install -y flatpak
 fi
 
-flatpak remote-add --if-not-exists \
+flatpak remote-add \
+    --if-not-exists \
     flathub \
     https://flathub.org/repo/flathub.flatpakrepo
 
@@ -28,10 +29,16 @@ if (( ${#packages[@]} == 0 )); then
     exit 0
 fi
 
-echo "Installing Flatpak applications..."
+echo "Installing ${#packages[@]} Flatpak applications..."
 
 for package in "${packages[@]}"; do
+    if flatpak info "$package" >/dev/null 2>&1; then
+        echo "Already installed: $package"
+        continue
+    fi
+
+    echo "Installing: $package"
     flatpak install -y flathub "$package"
 done
 
-echo "Flatpak applications installed."
+echo "Flatpak application installation complete."
