@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# iiyama PL3466WQ
+# DisplayPort 2
+ddcutil setvcp 60 0x10

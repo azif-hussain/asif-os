@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# iiyama PL3466WQ
+# HDMI 1
+ddcutil setvcp 60 0x11
